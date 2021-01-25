@@ -1,0 +1,18 @@
+{
+  "collection": "@nestjs/schematics",
+  "monorepo": true,
+  "compilerOptions": {
+    "webpack": true
+  },
+  "projects": {
+    "hero": {
+      "type": "application",
+      "root": "apps/hero",
+      "entryFile": "main",
+      "sourceRoot": "apps/hero/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/hero/tsconfig.app.json"
+      }
+    }
+  }
+}
