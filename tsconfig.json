@@ -11,6 +11,13 @@
     "outDir": "./dist",
     "baseUrl": "./",
     "incremental": true,
-    "paths": {}
+    "paths": {
+      "@app-core/providers": [
+        "libs/providers/src"
+      ],
+      "@app-core/providers/*": [
+        "libs/providers/src/*"
+      ]
+    }
   }
 }

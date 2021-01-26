@@ -9,15 +9,13 @@ async function bootstrap() {
       transport: Transport.RMQ,
       options: {
         urls: ['amqp://localhost:5672'],
-        queue: 'cats_queue',
+        queue: 'hero_queue',
         queueOptions: {
           durable: false,
         },
       },
     },
   );
-
   await app.listenAsync();
 }
-
 bootstrap();
