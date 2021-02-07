@@ -17,6 +17,12 @@
       ],
       "@app-core/providers/*": [
         "libs/providers/src/*"
+      ],
+      "@app-core/env": [
+        "libs/env/src"
+      ],
+      "@app-core/env/*": [
+        "libs/env/src/*"
       ]
     }
   }
