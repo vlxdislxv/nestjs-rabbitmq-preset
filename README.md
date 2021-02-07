@@ -17,6 +17,8 @@ $ npm install
 ```bash
 $ npm run build:hero && npm run build:gateway
 
+$ cp ./config/.env.example ./config/.env
+
 $ cd docker
 
 $ docker-compose up --build
