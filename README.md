@@ -6,6 +6,9 @@
 
 ```bash
 $ git clone https://github.com/vlxdislxv/nestjs-rabbitmq-preset.git
+
+$ cd nestjs-rabbitmq-preset
+
 $ npm install
 ```
 
